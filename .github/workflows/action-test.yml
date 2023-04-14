@@ -1,9 +1,8 @@
 name: my-workflow
-on: workflow_despatch #manual trigger
+on: [workflow_despatch] #manual trigger
 jobs:
-
-my-first-job:
-runs-on:
-Steps:
-- name:Say Hello
-  run: echo"hello World"
+ my-first-job:
+  runs-on:ubuntu-22.04
+  Steps:
+      - name:Say Hello
+        run: echo"hello World"
