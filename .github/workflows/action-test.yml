@@ -6,4 +6,4 @@ my-first-job:
 runs-on:
 Steps:
 - name:Say Hello
-  run: echo:"hello World"
+  run: echo"hello World"
